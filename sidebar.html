@@ -1,76 +1,66 @@
-<!DOCTYPE html>
-    <html>
-        <head>
-            <title></title>
-        </head>
-        <body>
-        <style type="text/css">
-        body {
-        background-color: #ddd;
-    }
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
 
-    .navBar {
-        margin-left: 25px;
-        margin-right: 25px;
-        background-color: #74BAE9;
-        padding-bottom: 25px;
-    }
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
 
-        .navBar ul {
-            list-style: none;
-        }
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
 
-        .navBar ul li {
-            float: left;
-        }
+.sidenav a:hover {
+  color: #f1f1f1;
+}
 
-        .navBar ul li a {
-            color: #000;
-            margin-right: 15px;
-        }
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
 
-    .containter {
-        width: 100%;
-        height: auto;
-    }
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
 
-    .leftContent {
-        margin-left: 15px;
-        width: 50%;
-        float: left;
-    }
+<div class="sidenav">
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#clients">Clients</a>
+  <a href="#contact">Contact</a>
+</div>
 
-    .rightBar {
-        margin-top: 10%;
-        float: left;
-        margin-left: 25%;
-    }
-        </style>
-        <div  class="navBar">
-                <ul>
-                    <li><a href="#">Page 1</a></li>
-                    <li><a href="#">Page 2</a></li>
-                    <li><a href="#">Page 3</a></li>
-                </ul>
-        </div>
-            <div class="containter">
+<div class="main">
+  <h2>Sidebar</h2>
+  <p>This sidebar is of full height (100%) and always shown.</p>
+  <p>Scroll down the page to see the result.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+</div>
+   
+</body>
+</html> 
 
-            <div class="leftContent">
-                <h1>Header</h1>
-                <p>This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. </p>
-                <ul>
-                    <li>List Item</li>
-                    <li>List Item</li>
-                    <li>List Item</li>
-                    <li>List Item</li>
-                </ul>
-            </div>
-            <div class="rightBar">
-                <img src="#">
-                <br>
-                <h3>Some Header</h3>
-                <p>Some text</p>
-            </div>
-            </div>
-        </body>
-    </html>
