@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title></title>
+        </head>
+        <body>
+        <style type="text/css">
+        body {
+        background-color: #ddd;
+    }
+
+    .navBar {
+        margin-left: 25px;
+        margin-right: 25px;
+        background-color: #74BAE9;
+        padding-bottom: 25px;
+    }
+
+        .navBar ul {
+            list-style: none;
+        }
+
+        .navBar ul li {
+            float: left;
+        }
+
+        .navBar ul li a {
+            color: #000;
+            margin-right: 15px;
+        }
+
+    .containter {
+        width: 100%;
+        height: auto;
+    }
+
+    .leftContent {
+        margin-left: 15px;
+        width: 50%;
+        float: left;
+    }
+
+    .rightBar {
+        margin-top: 10%;
+        float: left;
+        margin-left: 25%;
+    }
+        </style>
+        <div  class="navBar">
+                <ul>
+                    <li><a href="#">Page 1</a></li>
+                    <li><a href="#">Page 2</a></li>
+                    <li><a href="#">Page 3</a></li>
+                </ul>
+        </div>
+            <div class="containter">
+
+            <div class="leftContent">
+                <h1>Header</h1>
+                <p>This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. </p>
+                <ul>
+                    <li>List Item</li>
+                    <li>List Item</li>
+                    <li>List Item</li>
+                    <li>List Item</li>
+                </ul>
+            </div>
+            <div class="rightBar">
+                <img src="#">
+                <br>
+                <h3>Some Header</h3>
+                <p>Some text</p>
+            </div>
+            </div>
+        </body>
+    </html>
