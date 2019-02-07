@@ -58,7 +58,14 @@ body {
   <p>Uno</p>
   <h2>But we're playing goldfish?</h2>
   <p>Bingo!</p>
-  <p>*sign* Fine you win...</p>
+  <p>Date/Time: <span id="datetime"></span></p>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleTimeString();
+</script>
+
+
 </div>
   </body>
   <meta name="viewport" content="width=device-width, initial-scale=1">
