@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Testing Dice Roller; Custom Buttons Being Made</h2>
+
+<p id="demo"></p>
+
+<form action="d.html">
+  <select name="Dice">
+    <option value="D20">D20</option>
+    <option value="D12">D12</option>
+    <option value="D10">D10</option>
+    <option value="D8">D8</option>
+    <option value="D4">D4</option>
+    <input type="reset">
+  </select>
+  <br><br>
+  <input type="submit">
+</form>
+
+<script>
+var rolls= 2;
+var text = "";
+var i;
+for (i = 0; i < rolls; i++) { <!-- 2nd i sets number of dice rolled -->
+  text += "The Lords of Chaos have blessed thou with " + (Math.floor(Math.random() * 8) + 1) + "<br>";<!-- * is sides and + is amount from zero -->
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+
+</body>
+</html>
